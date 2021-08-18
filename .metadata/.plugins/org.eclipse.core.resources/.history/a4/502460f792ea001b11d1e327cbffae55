@@ -1,0 +1,11 @@
+package Facebook;
+
+public abstract class Post 
+{
+	public String Createpost() 
+	{
+		
+		return "Create an Oregnal Post";
+	}
+
+}

@@ -1,0 +1,13 @@
+package AdabterPattern;
+
+public class CalculaterSalry 
+{
+
+	
+	public void claculater(Emploee emp)
+	{
+	 double pouns = 1.5;
+	 double Newsalary = emp.Salary * pouns;  
+		System.out.println(Newsalary);
+	}
+}

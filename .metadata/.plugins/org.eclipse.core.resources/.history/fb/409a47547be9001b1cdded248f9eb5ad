@@ -1,0 +1,13 @@
+
+public abstract class MotherDuck 
+{
+ private int id;
+ private String name;
+ private int Counter;
+ MotherDuck()
+ {
+	 
+	 
+ }
+ public String dis();
+}

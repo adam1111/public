@@ -1,0 +1,11 @@
+package Objects;
+
+public class arEmb extends emb {
+
+	public arEmb(String s, int num, int hr) {
+		super(s, num, hr);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+}

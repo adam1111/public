@@ -1,0 +1,11 @@
+package AdabterPattern;
+
+public class hr {
+
+	public static void main(String[] args) 
+	{
+		AdabterCalc d = new AdabterCalc();
+		d.claculater(new Emploee());
+		
+	}
+}

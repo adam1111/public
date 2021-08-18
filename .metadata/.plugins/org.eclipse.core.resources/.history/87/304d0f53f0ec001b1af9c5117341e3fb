@@ -1,0 +1,13 @@
+package Objects;
+
+public class aw {
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		emb c = new emb("Hassan", 01010, 4);
+	    emb opp = (emb) c.clone();
+	    System.out.println(c);
+	    System.out.println(opp);
+        
+	}
+
+}

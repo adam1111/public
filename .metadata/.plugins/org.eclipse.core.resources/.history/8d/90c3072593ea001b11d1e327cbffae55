@@ -1,0 +1,29 @@
+package Facebook;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class trys {
+
+	public static void main(String[] args) {
+		Post post = null;
+		List<String> ls = new ArrayList();
+		ls.add("hello man");
+		ls.add("@hello man");
+		ls.add("#hello man ");
+		for (String string : ls)
+		{
+		if(string.startsWith("@")) 
+		{
+		 	post = new Taggedpost();
+		}else if(string.startsWith("#")) 
+		{
+			post = new Hashpost();
+		}else 
+		{
+			post = new Post;
+		}	
+		}
+	}
+
+}

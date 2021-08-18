@@ -1,0 +1,22 @@
+package CreatnalPatterns;
+
+public class mains 
+{
+	public static void main(String[] arg)
+	{
+		Thread s = new Thread();
+		s.start();
+		System.out.println(s.isDaemon());
+		
+		Countter x = Countter.getCounter();
+		x.AddOne();
+		System.out.println(x.counter);
+		
+		Countter y = Countter.getCounter();
+		y.AddOne();
+		
+		System.out.println(y.counter);
+		
+	}
+
+}

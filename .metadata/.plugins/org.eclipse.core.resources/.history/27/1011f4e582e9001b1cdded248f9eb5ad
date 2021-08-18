@@ -1,0 +1,12 @@
+package Duck;
+
+public class Behevior extends MotherDuck
+{
+
+	@Override
+	public String fly() {
+		
+		return this.be;
+	}
+
+}

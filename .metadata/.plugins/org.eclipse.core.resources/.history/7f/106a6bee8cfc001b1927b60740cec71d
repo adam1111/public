@@ -1,0 +1,15 @@
+package DecratorPattern;
+
+public class BehevorDecrator extends DecratorSms 
+{
+	public String sendemail(int id,String num, String massage) 
+	{
+		return "your email send to #00" + id + "number " + num;  
+	}
+	public String SendSms(int id,String num, String massage)
+	{
+	   sendemail(id, num, massage);
+	   return super.SendSms(id, num, massage);	
+	   
+	}
+}

@@ -1,0 +1,5 @@
+package Duck;
+
+public interface FlyNoFly implements gameDuck{
+
+}

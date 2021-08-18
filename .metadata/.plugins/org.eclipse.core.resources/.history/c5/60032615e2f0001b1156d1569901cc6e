@@ -1,0 +1,24 @@
+package Proxy;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class SmsProxy 
+{
+  SmsConstract Sms;
+  private Map<String , Integer> map = new HashMap<>();
+  
+  public String SendSms(String empId, String number, String sms) {
+		if(sms == null){
+		Sms = new SmsConstract();
+		map.put(empId,1);
+		}else{
+			int count =  map.get(empId);
+			if(map.get(empId) <= 2){map.replace(empId, count, count+1);}else 
+			{ return "Not send "; }
+			
+		}
+			return Sms.SendSms(empId, number, sms);
+	}
+
+}

@@ -1,0 +1,26 @@
+package Objects;
+
+public  class emb implements Cloneable {
+
+	int number;
+	String name  ;
+	int hour;
+	arEmb a = new arEmb();
+	public emb(String s , int num, int hr)
+	{
+		this.hour = hr;
+		this.name = s;
+		this.number = num;
+		
+	}
+   
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+    public String toString(){
+    	return this.name + " => " + this.hour + " => " + this .number;
+    }
+	
+	
+}

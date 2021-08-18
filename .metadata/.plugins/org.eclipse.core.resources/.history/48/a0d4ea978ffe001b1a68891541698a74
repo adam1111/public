@@ -1,0 +1,16 @@
+package AdabterPattern;
+
+public class AdabterCalc extends CalculaterSalry
+{
+	
+Maneger mr ;	
+	
+@Override
+public void claculater(Emploee emp) 
+{
+	mr = new Maneger();
+	emp.Salary = mr.Salary;
+	super.claculater(emp);
+}
+
+}

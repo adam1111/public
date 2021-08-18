@@ -1,0 +1,13 @@
+package AdabterPattern;
+
+public class hr {
+
+	public static void main(String[] args) 
+	{
+    Emploee e = new Emploee();
+    e.setBouns(1.5);
+    e.setSalary(2000);
+    CalculaterSalry clc = new CalculaterSalry();
+    clc.claculater(e);
+	}
+}

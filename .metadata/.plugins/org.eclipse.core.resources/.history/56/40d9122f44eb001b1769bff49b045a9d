@@ -1,0 +1,16 @@
+package CreatnalPatterns;
+
+public class mains 
+{
+	public static void main(String[] arg)
+	{
+		Countter x = Countter.getCounter();
+		x.AddOne();
+		Countter y = Countter.getCounter();
+		y.AddOne();
+		System.out.println(x);
+		System.out.println(y);
+		
+	}
+
+}

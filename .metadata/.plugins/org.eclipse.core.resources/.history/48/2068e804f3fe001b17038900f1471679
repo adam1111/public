@@ -1,0 +1,7 @@
+package AdabterPattern;
+
+public class Emploee {
+
+	double Salary = 4511;
+	
+}
